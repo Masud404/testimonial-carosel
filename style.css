@@ -1,0 +1,35 @@
+ .carousel-cell {
+    width: 60%;
+    margin-right: 10px;
+    background: rgb(246, 243, 243);
+    border-radius: 5px;
+ }
+
+ .carousel-cell img {
+     border-radius: 10px;
+ }
+
+ /* .carousel-cell img {
+     width: 120px;
+     height: 120px;
+     border-radius: 100%;
+ } */
+
+ .carousel-cell p {
+     text-align: right;
+     padding-bottom: 10px;
+ }
+
+ .ratting{
+     color: #41f4fae0;
+ }
+  
+  /* cell number */
+  .carousel-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+  
